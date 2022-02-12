@@ -1,0 +1,74 @@
+name=input('enter customer name: ')
+biryani=120
+rice=80
+water=76
+curry=90
+noodles=100
+n1=int(input('enter no of biryani packets: '))
+n2=int(input('enter no of rice packets: '))
+n3=int(input('enter no of water packets: '))
+n4=int(input('enter no of curry packets: '))
+n5=int(input('enter no of noodles packets: '))
+cc=input('enter coupon code: ')
+bill=(biryani*n1)+(rice*n2)+(water*n3)+(curry*n4)+(noodles*n5)
+if bill>5000:
+ if cc=='my bill':
+    disc=bill*10/100
+    tax=0
+if bill>3000:    
+ if cc=='hello':
+    disc=bill*8/100
+    tax=0
+if bill>2000:
+ if cc=='hi':
+    disc=bill*5/100
+    tax=bill*2/100
+if bill>1000:
+ if cc=='hero':
+    disc=bill*3/100
+    tax=bill*5/100
+ else:
+     print('invalid cc ')
+ mainbill=bill-disc+tax
+ print('bill amount: ',mainbill)
+     
+    
+name=input('enter customer name: ')
+biryani=120
+rice=80
+water=76
+curry=90
+noodles=100
+n1=int(input('enter no of biryani packets: '))
+n2=int(input('enter no of rice packets: '))
+n3=int(input('enter no of water packets: '))
+n4=int(input('enter no of curry packets: '))
+n5=int(input('enter no of noodles packets: '))
+cc=input('enter coupon code: ')
+bill=(biryani*n1)+(rice*n2)+(water*n3)+(curry*n4)+(noodles*n5)
+if bill>5000:
+ if cc=='my bill':
+    disc=bill*10/100
+    tax=0
+if bill>3000:    
+ if cc=='hello':
+    disc=bill*8/100
+    tax=0
+if bill>2000:
+ if cc=='hi':
+    disc=bill*5/100
+    tax=bill*2/100
+if bill>1000:
+ if cc=='hero':
+    disc=bill*3/100
+    tax=bill*5/100
+ else:
+     print('invalid cc ')
+ mainbill=bill-disc+tax
+     
+ print('bill amount: ',mainbill)
+     
+     
+     
+    
+
